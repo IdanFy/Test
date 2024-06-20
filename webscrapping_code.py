@@ -46,4 +46,5 @@ cursor.execute("INSERT INTO products (product_name, price) VALUES (?, ?)", (prod
 conn.commit()
 conn.close()
 print("it worked")
+print("ABCDEFGHIJKLMNMOPQRSTUVWXYZ")
 
